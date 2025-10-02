@@ -11,6 +11,25 @@ html {
   box-sizing: inherit;
 }
 
+/*--------------Utility Classes-------------*/
+
+.container{
+  background:red;
+  width:80vw;
+  margin:20px auto;
+}
+
+
+
+/*--------------Responsive Images-------------*/
+
+img{
+  max-width:100%;
+}
+
+
+
+
 
 /*----- Global Styles -----*/
 
@@ -25,12 +44,12 @@ color:#ffffff;
 /*long form*/
 padding: 40px;
 padding-top: 40px;
-padding-right 40px;
+padding-right: 40px;
 padding-left: 40px
 /*T,R,B,L */
-padding: 20px 40px 20px 40px
+padding: 20px 40px 20px 40px;
 /*Two Value Top/Bottom / L/R */
-padding 20px 40px;
+padding: 20px 40px;
 }
 
 header.primary h1{
@@ -51,6 +70,10 @@ header.primary h2{
 
 header.primary nav ul{
   padding:0;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 10px;
 }
 
 header.primary nav ul{
@@ -58,5 +81,54 @@ header.primary nav ul{
 }
 
 header.primary nav ul a{
+  color:black;
+  background-color:#ffffff;
+  padding:5px 7.5px;
+  border-radius: 20px;
+  text-decoration: none;
+  background-color:rgba(0,0,0,.4);
+  font-size:.7rem;
+  transition: 0.4s;
+}
+
+header.primary nav a:hover{
+   background-color:rgba(0,0,0,.8);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+
+@media screnn and (max-width: 540px){
+
+  header.primary nav ul{
+  flex-direction: column;
+  justify-content: space-around;
+  gap:20px;
+}
+
+header.primary nav ul a{
+  display:block;
+}
+
+.container{
+  background-color: transparent;
+  width:90vw;
+  margin:20px auto;
+}
 
 }
