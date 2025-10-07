@@ -41,11 +41,12 @@ header.primary{
 background-color: 3B638B;
 text-align:center;
 color:#ffffff;
+padding: 40px;
 /*long form*/
 padding: 40px;
 padding-top: 40px;
 padding-right: 40px;
-padding-left: 40px
+padding-left: 40px;
 /*T,R,B,L */
 padding: 20px 40px 20px 40px;
 /*Two Value Top/Bottom / L/R */
@@ -95,6 +96,81 @@ header.primary nav a:hover{
    background-color:rgba(0,0,0,.8);
 }
 
+#intro h2{
+  color:#3B638B;
+  border-bottom:1px dotted #000;
+}
+
+#content{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap:10px
+}
+
+#content .post{
+  box-shadow: 0 4px 8px rgba(0,0,0,.8);
+  padding:10px;
+  font-size:.7rem
+}
+
+#content .post figure{
+  margin:0;
+}
+
+#content time.post-date{
+  text-transform: uppercase;
+  font-size:.7rem;
+}
+
+#content a{
+  color:#3B638B;
+}
+
+#content a:hover{
+  text-decoration:none;
+}
+
+aside[role="complementary"]{
+  background-color: #172635;
+  color: #ffffff;
+}
+
+aside .container{
+   display:flex;
+   flex-direction: row;
+   justify-content: space-around;
+   gap: 40px
+}
+
+aside .container a{
+  color: #ffffff;
+}
+
+aside .container a::hover{
+  text-decoration: none;
+}
+
+aside .container a:last-child{
+  color:#ffffff;
+  display: block;
+  text-align: right;
+  margin-top: 20px;
+}
+
+
+
+aside .widget footer{
+  display:none;
+}
+
+#colophon{
+  background-color: #3b638b;
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+  color: #ffffff
+}
 
 
 
