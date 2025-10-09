@@ -14,12 +14,31 @@ html {
 /*--------------Utility Classes-------------*/
 
 .container{
-  background:red;
+  background: #D2B48C;
   width:80vw;
   margin:20px auto;
 }
 
+.img-right{                           /*These are all fo image stuff - note */
+  float:right;
+  margin: 10px 0 10px 20px;
+  border:2px double #cccccc;
+  padding: 5px
+}
 
+.img-left{
+  float:left;
+  margin: 10px 20px 10px 0;
+  border: 2px double #cccccc;
+  padding: 5px;
+}
+
+.img-center{
+  display:block;
+  margin: 20px auto;
+  border: 2px double #cccccc;
+  padding: 5px;
+}
 
 /*--------------Responsive Images-------------*/
 
@@ -38,7 +57,7 @@ body{
 }
 
 header.primary{
-background-color: 3B638B;
+background-color: #D2B48C;
 text-align:center;
 color:#ffffff;
 padding: 40px;
@@ -97,15 +116,22 @@ header.primary nav a:hover{
 }
 
 #intro h2{
-  color:#3B638B;
+  color:#D2B48C;
   border-bottom:1px dotted #000;
 }
+
+
 
 #content{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap:10px
+  gap:20px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 40px 0;
+  margin: 30px auto 30px auto;
+
 }
 
 #content .post{
@@ -124,11 +150,63 @@ header.primary nav a:hover{
 }
 
 #content a{
-  color:#3B638B;
+  color: #D2B48C;
 }
 
 #content a:hover{
   text-decoration:none;
+}
+
+#practice h2{
+  color:#D2B48C;
+  border-bottom: 1px dotted #cccccc;
+}
+
+#practice a{
+  color:#D2B48C;
+}
+
+#pratice a:hover{
+  text-decoration:none;
+}
+
+#practice h3{
+  border-left: 7.5px solid #172635;
+  padding: 7.5px;
+}
+
+#practice table{
+  width:100%;
+  border:1px solid #172635;
+  border-collapse:collapse;   /* when double border, use. cool cool! */
+}
+#practice caption{
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin: 10px;
+}
+/* nth-child targets child elements. rad. */
+#practice tr:nth-child(even){                   
+  background-color: rgba(0, 0, 0, 0.05);
+}    
+
+#practice tr:hover{
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+#practice td:nth-child(1n+2){
+  text-align:right;
+}
+
+#practice th{
+  background-color:#172635;
+  color: #ffffff;
+  padding: 5px;
+}
+
+#practice td{
+  border:1px solid #172635;
+  padding:5px;
 }
 
 aside[role="complementary"]{
@@ -165,7 +243,7 @@ aside .widget footer{
 }
 
 #colophon{
-  background-color: #3b638b;
+  background-color: #D2B48C;
   padding: 5px;
   text-align: center;
   font-weight: bold;
