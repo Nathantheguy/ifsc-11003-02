@@ -127,6 +127,7 @@ header.primary nav a:hover{
 #content{
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   gap:20px;
   border-top: 1px solid #ccc;
@@ -251,15 +252,7 @@ aside .widget footer{
   color: #ffffff;
 }
 
-main{
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-}
 
-section, aside, article{
-  flex:1 1 300px;
-}
 
 
 
