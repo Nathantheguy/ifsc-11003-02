@@ -123,6 +123,7 @@ header.primary nav a:hover{
 
 
 
+
 #content{
   display: flex;
   flex-direction: row;
@@ -247,10 +248,18 @@ aside .widget footer{
   padding: 5px;
   text-align: center;
   font-weight: bold;
-  color: #ffffff
+  color: #ffffff;
 }
 
+main{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
 
+section, aside, article{
+  flex:1 1 300px;
+}
 
 
 
