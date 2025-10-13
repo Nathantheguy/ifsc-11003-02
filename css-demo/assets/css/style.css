@@ -19,7 +19,8 @@ html {
   margin:20px auto;
 }
 
-.img-right{                           /*These are all fo image stuff - note */
+/*These are all fo image stuff - note */
+.img-right{                           
   float:right;
   margin: 10px 0 10px 20px;
   border:2px double #cccccc;
@@ -102,7 +103,7 @@ header.primary nav ul{
 
 header.primary nav ul a{
   color:black;
-  background-color:#ffffff;
+  background-color:#D2B48C;
   padding:5px 7.5px;
   border-radius: 20px;
   text-decoration: none;
@@ -212,6 +213,7 @@ header.primary nav a:hover{
 aside[role="complementary"]{
   background-color: #172635;
   color: #ffffff;
+  padding:40px 0;
 }
 
 aside .container{
@@ -270,7 +272,7 @@ aside .widget footer{
   header.primary nav ul{
   flex-direction: column;
   justify-content: space-around;
-  gap:20px;
+  gap:10px;
 }
 
 header.primary nav ul a{
@@ -279,7 +281,7 @@ header.primary nav ul a{
 
 .container{
   background-color: transparent;
-  width:90vw;
+  width:100%;
   margin:20px auto;
 }
 
