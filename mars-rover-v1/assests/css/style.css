@@ -1,1 +1,29 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 
+html{
+background-color: black;
+}
+
+body{
+    font-family: "Monsterrat", sans-serif;
+    color: white;
+}
+
+header.prim{
+    width:100%;
+    background-color: whitesmoke;
+    text-align: center;
+    color: black;
+    
+}
+
+html{
+background-color: black;
+}
