@@ -23,7 +23,7 @@ header.prim{
     background-color: whitesmoke;
     text-align: center;
     font-size:2rem;
-    color: red;
+    color: #610000;
     
 }
 
@@ -45,3 +45,6 @@ header.prim nav ul a{
   text-decoration:none;
 }
 
+#beginning{
+  text-align: center;
+}
