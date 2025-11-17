@@ -17,14 +17,19 @@ body{
 }
 
 header.prim{
-    background-image: ;
     width:100%;
     padding-top: 50px;
     padding-bottom: 5px;
     text-align: center;
     font-size:2rem;
-    color: #610000;
+    color: black;
     
+}
+
+header{
+  background-image: url('../img/new-mars-background.jpg');
+  background-size:cover;
+  
 }
 
 html{
