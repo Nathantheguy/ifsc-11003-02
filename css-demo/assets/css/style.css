@@ -53,6 +53,10 @@ img{
 
 /*----- Global Styles -----*/
 
+html{
+  background-color: #000;
+}
+
 body{
     font-family: "Monsterrat", sans-serif;
 }

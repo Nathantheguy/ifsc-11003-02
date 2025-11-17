@@ -18,12 +18,30 @@ body{
 
 header.prim{
     width:100%;
+    padding-top: 50px;
+    padding-bottom: 5px;
     background-color: whitesmoke;
     text-align: center;
-    color: black;
+    font-size:2rem;
+    color: red;
     
 }
 
 html{
 background-color: black;
 }
+
+header.prim nav ul {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+header.prim nav ul {
+  list-style-type: none;
+}
+
+header.prim nav ul a{
+  text-decoration:none;
+}
+
