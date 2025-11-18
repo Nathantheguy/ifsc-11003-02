@@ -78,3 +78,10 @@ h6{
 #rover-type{
   color:brown;
 }
+
+#main-footer{
+  background-color: brown;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+}
