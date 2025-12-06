@@ -60,7 +60,6 @@ header.prim nav ul a{
   background-color: black;
   padding: 5px 8px;
   border-radius: 40px;
-  transition: 1s;
 }
 
 #Beginning{
@@ -121,4 +120,13 @@ img{
 .slick-autoplay-toggle-button:focus 
 {
     color:black;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  width: 100%;
 }
